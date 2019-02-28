@@ -2,6 +2,8 @@
 BlogGardenSpider 
 博客园文章爬取--更新到自己的博客上(图片下载,url地址替换,css样式替换,自动上传图片,自动插入数据库)
 
+## 如有疑问可加群 198447500
+
 ## 项目主要结构
 ```
 ./
@@ -10,7 +12,7 @@ BlogGardenSpider
 ├── image_processing.py    # 检测图片大小(850,550)--不符合自动修改   
 ├── mylog.py               # 日志功能,记录爬取过程中的信息
 ├── resource.py            # 资源文件(包含user-agents，代理ip地址池)
-├── ssh_upload.py          # 上传本地地图文件到线上服务器(mkdir -p)
+├── ssh_upload.py          # 上传本地地图文件到线上服务器(如目录不存在自动创建,不会覆盖相当于scp -r)
 ├── update_mysql.py        # 爬取的内容插入到数据库中
 
 ```
