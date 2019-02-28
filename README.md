@@ -23,12 +23,12 @@ BlogGardenSpider
 
 
 ## 需要用到的第三方库
+selenium   pip3 install selenium   
+selenium的使用需要安装谷歌驱动chromedriver.exe，要与本地浏览器的版本一致
+下载地址: https://npm.taobao.org/mirrors/chromedriver/
+![Image text](https://github.com/py3study/BlogGardenSpider/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD/222.png)
+
 ```
-	selenium   pip3 install selenium   
-	           selenium的使用需要安装谷歌驱动chromedriver.exe，要与本地浏览器的版本一直
-		       下载地址: https://npm.taobao.org/mirrors/chromedriver/
-			   ![Image text](https://github.com/py3study/BlogGardenSpider/blob/master/%E5%9B%BE%E7%89%87%E5%8A%A0%E8%BD%BD/222.png)
-		
 	lxml       pip3 install lxml
 	pymysql    pip3 install pymysql
 	paramiko   pip3 install paramiko
